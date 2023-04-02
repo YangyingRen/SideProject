@@ -39,7 +39,7 @@ public class FilesInteraction : MonoBehaviour, IPointerClickHandler
     }
 
     public void OpenFile(){
-        Instantiate(NextFile,MotherLayer.parent.parent.parent);
+        NextFile.SetActive(true);
     }
     public void CloseInfo(){
         if(InfoContent.childCount!=0){
@@ -52,7 +52,7 @@ public class FilesInteraction : MonoBehaviour, IPointerClickHandler
     public void Back(){
         int LayerIndex=transform.parent.parent.GetSiblingIndex();
         if(LayerIndex>2){
-           Destroy(transform.parent.parent.gameObject);
+           NextFile.SetActive(false);
         }
     }
 }
