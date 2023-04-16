@@ -2248,6 +2248,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: SampleMessage 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6083864799592370681, guid: 2667bae19baa9004284db86a2c458094, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 585f42f514ecf034cbb2437a9ee02f0a, type: 3}
+    - target: {fileID: 6083864799592370681, guid: 2667bae19baa9004284db86a2c458094, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6083864799592370681, guid: 2667bae19baa9004284db86a2c458094, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6083864799592370681, guid: 2667bae19baa9004284db86a2c458094, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6083864799592370681, guid: 2667bae19baa9004284db86a2c458094, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: f137d743e24aa6d4fb3b77cca082995b, type: 2}
     - target: {fileID: 8665119364633469305, guid: 2667bae19baa9004284db86a2c458094, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
